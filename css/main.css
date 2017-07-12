@@ -1,0 +1,226 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	width: 100%;
+}
+
+ul, li, a{
+	text-decoration: none;
+	list-style: none;
+	display: inline-block;
+}
+
+h1, h2{
+	font-family:'Gentium Book Basic', serif;
+	color: #ffffff;
+}
+
+h3{
+	font-family: 'Open Sans', sans-serif;
+	color: #ffffff;
+}
+
+p{
+	font-family: 'Gentium Book Basic', serif;
+	color: #000000;
+}
+
+a{
+	color: #ffffff;
+}
+
+a:hover{
+	color: #000;
+	transition: top 1s ease-out 0.5s;
+}
+
+
+.header{
+	width: 100%;
+	height: 786px;
+	background: url(images/bg.jpeg) no-repeat;
+
+}
+
+.header__title{
+	padding-top : 527px;
+	padding-left: 368px;
+
+}
+
+.header__title_h1{
+	font-size: 80px;
+	font-weight: 400;
+	
+}
+
+.header__title_h2{
+	color: #d7d7d7;
+	font-style: italic;
+	font-size: 39px;
+	padding-bottom: 18px;
+
+}
+
+.header__title_line{
+	border-top: 1px solid #d7d7d7;
+	width: 698px;
+
+}
+
+.header__title_h3{
+	font-size: 15px;
+	padding-top: 21px;
+	float: left;
+
+}
+
+.header__title_id{
+	float: left;
+	padding-top: 29px;
+	padding-left: 6px;
+}
+
+.header__title_social{
+	padding-left:360px;
+	padding-top: 29px;
+
+
+}
+
+
+.header__title_icon{
+	color: #fff;
+	padding-left: 16px;
+}
+
+.header__title_icon:hover{
+	color: #000;
+
+	transition: top 1s ease-out 0.5s;
+}
+
+.main{
+	margin: 54px 368px 50px;
+	width: 696px;
+}
+
+h4{
+	color: #626262;
+	font-size: 25px;
+	padding:46px 114px 46px;
+	font-style: italic;
+
+}
+
+.main__button_arrow{
+	color: #b5b5b5;
+	padding-top: 73px;
+	padding-left: 300px;
+	
+}
+
+.button{
+	width: 100%;
+	height: 250px;
+	background: url(images/gradient.jpg) no-repeat center;
+}
+
+.button__share{
+	margin-left: 615px;	
+	margin-top: 90px;
+}
+
+.button__share_b{
+	height: 50px;
+	width: 200px;
+	border-radius: 24.5px;
+	border-color: #2ecc71;
+	background-color: inherit;
+	text-transform: uppercase;
+	text-align: center;
+	color: #2ecc71;
+	margin-top: 90px;
+	font-weight: 600;
+	font-size: 13px;
+
+}
+
+.button__share_b:hover{
+	color: #000;
+}
+
+.footer{
+	width: 863px;
+	height: 355px;
+	
+}
+
+.footer__seaside1{
+	float: left;
+	width: 700px;
+	height: 355px;
+	background: url(images/calque2.jpg) no-repeat;
+}
+
+
+.footer__seaside2{
+	height: 355px;
+	width: 100%;
+	background: url(images/calque1.jpg) no-repeat;
+	margin-left: 700px;
+}
+
+
+.footer__seaside_text{
+	font-size: 27px;
+	text-align: left;
+	padding-top: 70px;
+	padding-left: 62px;
+	text-transform: uppercase;
+
+}
+
+.footer__seaside_part{
+		font-family:'Gentium Book Basic', serif;
+		font-size: 35px;
+		padding-top: 47px;
+		margin-left: 62px;
+
+}
+
+.footer__seaside3{
+	color: #d7d7d7;
+	margin-left: 62px;
+	padding-top: 30px;
+	font-size: 23px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
